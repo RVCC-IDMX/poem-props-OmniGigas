@@ -1,2 +1,46 @@
 /* home */
-@use "./abstracts/functions"
+
+body {
+    background-image: url(../../images/jellyfish.jpg);
+}
+
+
+
+.title {
+    color: white;
+    padding: max(3vh, 1rem) 1.5rem;
+    margin: max(3vh, 1rem);
+    font-family: 'Young Serif', serif;
+}
+
+.jellyfishPoem {
+    color: white;
+    padding: max(3vh, 1rem) 1.5rem;
+    margin: max(4vh, 1.5rem);
+    font-family: 'Young Serif', serif;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.reference {
+    color: white;
+    padding: max(3vh, 1rem) 1.2rem;
+    margin: max(4vh, 1.5rem);
+
+}
+
+a:link {
+    color: yellow;
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: none;
+}
